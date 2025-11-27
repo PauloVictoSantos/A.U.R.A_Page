@@ -1,5 +1,8 @@
 node_modules/
 .next/
+dist/
+.env
+*.log
 *.mp4
 *.mov
 *.heic
