@@ -95,7 +95,7 @@ const ViceLiderMarketingLeviContent = () => (
 );
 
 const LiderProgramaçãoPauloContent = () => (
-  <BaseCardContent title="Paulo Victor— Líder de Desenvolvimento">
+  <BaseCardContent title="Paulo — Líder de Desenvolvimento">
     Como um dos Líderes da Programação, Paulo Victor  foi essencial na implementação do software que controla o sistema A.U.R.A. Seu foco foi na lógica de tradução (Text-to-Sign) e na codificação em C++ e Arduino para que os servomotores do braço robótico executassem os sinais de Libras com precisão e clareza.
 
     <div className="flex gap-5 mt-5">
@@ -160,37 +160,37 @@ const data = [
   {
     category: "Líder",
     title: "Pedro",
-    src: "/PEDRO.jpg",
+    src: "images/PEDRO.jpg",
     content: <LiderContent />,
   },
   {
     category: "Marketing",
     title: "Warlison",
-    src: "/Warlisson.jpg",
+    src: "images/Warlisson.jpg",
     content: <LiderMarketingWarlisonContent />,
   },
   {
     category: "Desenvolvimento",
     title: "Paulo",
-    src: "/Paulo.jpg",
+    src: "images/Paulo.jpg",
     content: <LiderProgramaçãoPauloContent />,
   },
   {
     category: "Pesquisa",
     title: "Àgata",
-    src: "/AgataPerfil.jpg",
+    src: "images/AgataPerfil.jpg",
     content: <LiderPesquisaContent />,
   },
   {
     category: "Marketing",
     title: "Tobias",
-    src: "/toba.jpg",
+    src: "images/toba.jpg",
     content: <ViceLiderMarketingTobiasContent />,
   },
   {
     category: "Desenvolvimento",
     title: "Levi",
-    src: "/Levi.jpg",
+    src: "images/Levi.jpg",
     content: <ViceLiderMarketingLeviContent />,
   },
 ];

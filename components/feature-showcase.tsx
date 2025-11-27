@@ -18,42 +18,42 @@ const features: Feature[] = [
     title: "Estrutura Mecânica",
     description:
       "Visualização completa da estrutura do braço robótico, incluindo montagem, suporte, articulações e detalhes de construção.",
-    image: "/Captura_de_tela_2025-11-23_153959-removebg-preview.png",
+    image: "images/Captura_de_tela_2025-11-23_153959-removebg-preview.png",
   },
   {
     id: "estrutura",
     title: "Estrutura Mecânica",
     description:
       "Visualização completa da estrutura do braço robótico, incluindo montagem, suporte, articulações e detalhes de construção.",
-    image: "/Captura_de_tela_2025-11-23_153959-removebg-preview.png",
+    image: "images/Captura_de_tela_2025-11-23_153959-removebg-preview.png",
   },
   {
     id: "protoboard",
     title: "Protoboard e Circuito",
     description:
       "Protoboard responsável pela organização das conexões, distribuição dos sinais e integração entre servos, sensores e a placa controladora.",
-    image: "/protoboard.png",
+    image: "images/protoboard.png",
   },
   {
     id: "fonte15a",
     title: "Fonte Chaveada 15A",
     description:
       "Fonte chaveada de 15A que fornece energia suficiente para todos os servomotores MG995, garantindo torque estável sem queda de tensão.",
-    image: "/fonte-chaveada-colmeia-15-a-removebg-preview.png",
+    image: "images/fonte-chaveada-colmeia-15-a-removebg-preview.png",
   },
   {
     id: "arduino",
     title: "Arduino Mega 2560",
     description:
       "A placa controladora principal do sistema. O Arduino Mega 2560 oferece mais portas, maior capacidade e estabilidade para coordenar todos os movimentos do braço robótico.",
-    image: "/mega2560.png",
+    image: "images/mega2560.png",
   },
   {
     id: "servos",
     title: "Servomotores MG995",
     description:
       "Os servos MG995 garantem torque elevado e resposta rápida, essenciais para movimentos precisos e expressivos da Libras.",
-    image: "/servos.png",
+    image: "images/servos.png",
   }
 ];
 
@@ -138,7 +138,7 @@ export function FeatureShowcase() {
               className="w-full h-full flex items-center justify-center"
             >
               <img
-                src="/Captura_de_tela_2025-11-23_153959-removebg-preview.png"
+                src="images/Captura_de_tela_2025-11-23_153959-removebg-preview.png"
                 alt="Braço"
                 className="w-full h-full object-contain p-6 drop-shadow-xl"
               />

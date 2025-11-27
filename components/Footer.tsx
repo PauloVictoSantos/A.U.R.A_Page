@@ -47,7 +47,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-1">
               <img
-                src="/AURA-removebg-preview.png"
+                src="images/AURA-removebg-preview.png"
                 alt="Logo do Projeto"
                 className="w-20 h-20 object-contain"
               />
@@ -69,13 +69,13 @@ export function Footer() {
                   href="https://www.smartprojectsbrasil.com.br/?srsltid=AfmBOopiiR1GSdEbbtc_hBAB52SHk2ThqtrOGDXolqLgtVEikBlMvykc"
                 >
                   <img
-                    src="/patrocinador1.png"
+                    src="images/patrocinador1.png"
                     alt="Patrocinador 2"
                     className="w-36 h-22 object-contain cursor-pointer"
                   />
                 </Link>
                 <img
-                  src="/patrocinador2.png"
+                  src="images/patrocinador2.png"
                   alt="Patrocinador 1"
                   className="w-36 h-22 object-contain"
                 />

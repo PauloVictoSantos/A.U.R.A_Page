@@ -62,7 +62,7 @@ export default function Hero() {
         {/* RIGHT - IMAGES + CARDS */}
         <div className="relative flex justify-end w-full h-full">
           <img
-            src="/mao.png"
+            src="images/mao.png"
             alt="Robotic Hand"
             className="w-[650px] lg:w-[750px] xl:w-[850px] max-w-none object-contain drop-shadow-2xl relative left-48 top-30"
           />

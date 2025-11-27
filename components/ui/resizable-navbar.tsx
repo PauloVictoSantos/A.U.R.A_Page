@@ -238,11 +238,11 @@ export const NavbarLogo = () => {
       className="relative z-20 mr-4 f"
     >
       <img
-        src="/AURA-removebg-preview.png"
+        src="images/AURA-removebg-preview.png"
         alt="logo"
         width={60}
         height={60}
-      />
+      />cl
     </Link>
   );
 };

@@ -95,7 +95,7 @@ export default function AnimatedBeamDemo() {
 
 const Icons = {
   openai: () => (
-    <img src="/AURA-removebg-preview.png" alt=""  />
+    <img src="images/AURA-removebg-preview.png" alt=""  />
   ),
   googleDrive: () => (
     <svg width="100" height="100" viewBox="0 0 87.3 78" xmlns="http://www.w3.org/2000/svg">

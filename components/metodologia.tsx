@@ -23,7 +23,7 @@ const features = [
     illustration: (
       <div className="relative w-full h-64 flex items-center justify-center">
         <img
-          src="/promessa-de-mindinho-unscreen.gif"
+          src="images/promessa-de-mindinho-unscreen.gif"
           alt="Inclusão através da tecnologia"
           className="w-full h-full object-contain opacity-30"
         />
@@ -47,7 +47,7 @@ const features = [
     illustration: (
       <div className="relative w-full h-64 flex items-center justify-center">
         <img
-          src="/chave-de-maos-unscreen.gif"
+          src="images/chave-de-maos-unscreen.gif"
           alt="Engenharia integrada"
           className="w-full h-full object-contain opacity-30"
         />
@@ -71,7 +71,7 @@ const features = [
     illustration: (
       <div className="relative w-full h-64 flex items-center justify-center">
         <img
-          src="/designer-de-web-unscreen (1).gif"
+          src="images/designer-de-web-unscreen (1).gif"
           alt="Protótipo evolutivo"
           className="w-full h-full object-contain opacity-30"
         />

@@ -5,34 +5,34 @@ import Carousel from "@/components/ui/carousel";
 export function Galeria() {
   const slideData = [
     {
-      src: "/IMG_2462.jpg",
+      src: "images/IMG_2462.jpg",
     },
     {
-      src: "/IMG_2464.jpg",
+      src: "images/IMG_2464.jpg",
     },
     {
-      src: "/IMG_2466.jpg",
+      src: "images/IMG_2466.jpg",
     },
     {
-      src: "/IMG_2486.jpg",
+      src: "images/IMG_2486.jpg",
     },
     {
-      src: "/IMG_2487.jpg",
+      src: "images/IMG_2487.jpg",
     },
     {
-      src: "/IMG_2504.jpg",
+      src: "images/IMG_2504.jpg",
     },
     {
-      src: "/IMG_2513.jpg",
+      src: "images/IMG_2513.jpg",
     },
     {
-      src: "/IMG_2600.jpg",
+      src: "images/IMG_2600.jpg",
     },
     {
-      src: "/IMG_2614.jpg",
+      src: "images/IMG_2614.jpg",
     },
     {
-      src: "/IMG_2616.jpg",
+      src: "images/IMG_2616.jpg",
     },
   ];
   return (

@@ -22,12 +22,12 @@ export function Features() {
 
           <div className="grid grid-cols-2 gap-4 md:gap-6">
             <img
-              src="/banner.png"
+              src="images/banner.png"
               alt="Atividades de Novembro"
               className="w-full h-32 md:h-48 lg:h-60 rounded-xl object-cover shadow-md border border-neutral-200 dark:border-neutral-700"
             />
             <img
-              src="/dacumentaçao.png"
+              src="images/dacumentaçao.png"
               alt="Atividades de Novembro"
               className="w-full h-32 md:h-48 lg:h-60 rounded-xl object-cover shadow-md border border-neutral-200 dark:border-neutral-700"
             />
@@ -61,22 +61,22 @@ export function Features() {
 
           <div className="grid grid-cols-2 gap-4 md:gap-6">
             <img
-              src="/AURA-removebg-preview.png"
+              src="images/AURA-removebg-preview.png"
               alt="Atividades de Outubro"
               className="w-full h-32 md:h-48 lg:h-60 rounded-xl object-cover shadow-md border border-neutral-200 dark:border-neutral-700"
             />
             <img
-              src="/arduino.png"
+              src="images/arduino.png"
               alt="Atividades de Outubro"
               className="w-full h-32 md:h-48 lg:h-60 rounded-xl object-cover shadow-md border border-neutral-200 dark:border-neutral-700"
             />
             <img
-              src="/IMG_2616.jpg"
+              src="images/IMG_2616.jpg"
               alt="Atividades de Outubro"
               className="w-full h-32 md:h-48 lg:h-60 rounded-xl object-cover shadow-md border border-neutral-200 dark:border-neutral-700"
             />
             <img
-              src="/camisa.png"
+              src="images/camisa.png"
               alt="Atividades de Novembro"
               className="w-full h-32 md:h-48 lg:h-60 rounded-xl object-cover shadow-md border border-neutral-200 dark:border-neutral-700"
             />
@@ -104,22 +104,22 @@ export function Features() {
 
           <div className="grid grid-cols-2 gap-4 md:gap-6">
             <img
-              src="/IMG_2487.jpg"
+              src="images/IMG_2487.jpg"
               alt="Atividades de Novembro"
               className="w-full h-32 md:h-48 lg:h-60 rounded-xl object-cover shadow-md border border-neutral-200 dark:border-neutral-700"
             />
             <img
-              src="/IMG_2614.jpg"
+              src="images/IMG_2614.jpg"
               alt="Atividades de Novembro"
               className="w-full h-32 md:h-48 lg:h-60 rounded-xl object-cover shadow-md border border-neutral-200 dark:border-neutral-700"
             />
             <img
-              src="/IMG_2486.jpg"
+              src="images/IMG_2486.jpg"
               alt="Atividades de Novembro"
               className="w-full h-32 md:h-48 lg:h-60 rounded-xl object-cover shadow-md border border-neutral-200 dark:border-neutral-700"
             />
             <img
-              src="/IMG_2600.jpg"
+              src="images/IMG_2600.jpg"
               alt="Atividades de Novembro"
               className="w-full h-32 md:h-48 lg:h-60 rounded-xl object-cover shadow-md border border-neutral-200 dark:border-neutral-700"
             />

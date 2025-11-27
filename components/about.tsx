@@ -140,7 +140,7 @@ export const SkeletonThree: React.FC = () => (
   <div className="w-full mx-auto bg-transparent group h-full">
     <div className="flex flex-1 w-full h-full flex-col space-y-2 relative">
       <video
-        src="/6153453-uhd_4096_2160_25fps.mp4"
+        src="images/6153453-uhd_4096_2160_25fps.mp4"
         autoPlay
         loop
         muted

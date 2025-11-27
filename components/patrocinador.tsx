@@ -18,7 +18,7 @@ export function HeroScrollDemo() {
         }
       >
         <img
-          src={`/GrupoAURA.jpg`}
+          src={`images/GrupoAURA.jpg`}
           alt="hero"
           height={720}
           width={1400}
