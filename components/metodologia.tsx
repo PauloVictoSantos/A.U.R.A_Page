@@ -88,7 +88,17 @@ export default function Metodologia() {
     <div className="min-h-screen" id="Metodologia" >
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <div className="flex items-start gap-2 mb-4">
-          <h2 className="text-[6rem] font-semibold leading-none">
+          <h2
+            className="
+      text-4xl           /* celular */
+      sm:text-5xl        /* >640px */
+      md:text-6xl        /* >768px */
+      lg:text-7xl        /* >1024px */
+      xl:text-8xl        /* >1280px */
+      2xl:text-[6rem]    /* telas muito grandes */
+      font-semibold leading-none
+    "
+          >
             Metodologia de Desenvolvimento
             <Tooltip
               containerClassName="text-neutral-600 dark:text-neutral-400"
@@ -98,6 +108,7 @@ export default function Metodologia() {
             </Tooltip>
           </h2>
         </div>
+
 
 
         <p className="text-neutral-700 dark:text-neutral-300 text-sm md:text-base max-w-sm">

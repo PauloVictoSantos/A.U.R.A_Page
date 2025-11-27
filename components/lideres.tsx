@@ -14,13 +14,21 @@ export function AppleCardsCarouselDemo() {
     <div id="applecards" className="w-full h-full py-20">
       <div className="max-w-7xl mx-auto py-20 px-4 md:px-8 lg:px-10">
         <div className="flex items-start gap-2 mb-4">
-          <h2 className="text-[6rem] font-semibold leading-none">
-            Metodologia de Desenvolvimento
+          <h2 className="
+      text-4xl           /* celular */
+      sm:text-5xl        /* >640px */
+      md:text-6xl        /* >768px */
+      lg:text-7xl        /* >1024px */
+      xl:text-8xl        /* >1280px */
+      2xl:text-[6rem]    /* telas muito grandes */
+      font-semibold leading-none
+    ">
+            A Força Criativa por Trás das Grandes Ideias
             <Tooltip
-              containerClassName="text-neutral-600 dark:text-neutral-400"
-              content="Os cards abaixo são clicáveis."
+              containerClassName="text-neutral-500 dark:text-neutral-400"
+              content="Os cards abaixo são interativos — clique para ver mais."
             >
-              <Info className="w-4 h-4 mb-8" />
+              <Info className="w-6 h-6 inline-block ml-3 opacity-70 hover:opacity-100 transition" />
             </Tooltip>
           </h2>
         </div>

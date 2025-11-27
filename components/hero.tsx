@@ -62,19 +62,28 @@ export default function Hero() {
         {/* RIGHT - IMAGES + CARDS */}
         <div className="relative flex justify-end w-full h-full">
           <img
-            src="images/mao.png"
+            src="/images/mao.png"
             alt="Robotic Hand"
-            className="w-[650px] lg:w-[750px] xl:w-[850px] max-w-none object-contain drop-shadow-2xl relative left-48 top-30"
+            className="
+    hidden          /* NÃO aparece no celular */
+    md:block        /* APARECE só do tamanho md pra cima */
+    w-[650px] lg:w-[750px] xl:w-[850px]
+    max-w-none object-contain drop-shadow-2xl
+    relative left-48 top-30
+  "
           />
+
 
           <div
             className="
-              absolute top-20 right-72
-              bg-white/80 dark:bg-white/10
-              backdrop-blur-md p-4 rounded-2xl shadow-lg flex gap-3 items-center border
-              dark:border-white/10
-            "
+    hidden md:flex
+    absolute top-20 right-72
+    bg-white/80 dark:bg-white/10
+    backdrop-blur-md p-4 rounded-2xl shadow-lg gap-3 items-center border
+    dark:border-white/10
+  "
           >
+
             <p className="text-sm font-semibold text-black dark:text-white">
               5000+<br />
               <span className="text-gray-500 dark:text-gray-300 font-normal">
@@ -85,12 +94,14 @@ export default function Hero() {
 
           <div
             className="
-              absolute bottom-10 right-28
-              bg-white/80 dark:bg-white/10
-              p-4 rounded-2xl shadow-lg border backdrop-blur-md
-              dark:border-white/10
-            "
+    hidden md:block
+    absolute bottom-10 right-28
+    bg-white/80 dark:bg-white/10
+    p-4 rounded-2xl shadow-lg border backdrop-blur-md
+    dark:border-white/10
+  "
           >
+
             <p className="text-sm font-semibold text-black dark:text-white pt-2">
               200+<br />
               <span className="text-gray-500 dark:text-gray-300 font-normal">

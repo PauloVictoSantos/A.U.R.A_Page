@@ -22,7 +22,17 @@ export function HeroScrollDemo() {
           alt="hero"
           height={720}
           width={1400}
-          className="mx-auto rounded-2xl object-cover h-full object-top-left"
+          className="
+            mx-auto
+            rounded-2xl
+            h-[380px]            /* 🔥 AJUSTE: altura boa para celular */
+            w-full               /* ocupa toda largura */
+            object-contain       /* mostra inteira no mobile */
+            
+            md:h-full            /* desktop ocupa tudo */
+            md:object-cover      /* desktop faz o efeito hero */
+            md:object-top
+          "
           draggable={false}
         />
       </ContainerScroll>
