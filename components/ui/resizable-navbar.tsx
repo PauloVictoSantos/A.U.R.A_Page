@@ -242,7 +242,7 @@ export const NavbarLogo = () => {
         alt="logo"
         width={60}
         height={60}
-      />cl
+      />
     </Link>
   );
 };
