@@ -3,15 +3,3 @@ node_modules/
 dist/
 .env
 *.log
-*.mp4
-*.mov
-*.heic
-*.HEIC
-*.gif
-*.jpg
-*.jpeg
-/*.mp4
-/*.HEIC
-/*.heic
-/*.jpg
-/*.jpeg
