@@ -54,9 +54,10 @@ export default function Hero() {
             para impulsionar indústrias, laboratórios e projetos de alto impacto.
           </p>
 
-          <div className="flex flex-row items-center justify-center relative -left-34 w-full pt-10">
+          <div className="flex flex-row items-center justify-center relative left-0 md:-left-34 w-full pt-10">
             <AnimatedTooltip items={people} />
           </div>
+
         </div>
 
         {/* RIGHT - IMAGES + CARDS */}

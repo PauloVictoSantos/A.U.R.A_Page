@@ -136,7 +136,7 @@ const LiderMarketingWarlisonContent = () => (
 );
 
 const ViceLiderMarketingTobiasContent = () => (
-  <BaseCardContent title="Warlisson — Líder de Marketing">
+  <BaseCardContent title="Tobias Barbosa  — Líder de Marketing">
     Como um dos Líderes do Marketing, Tobias Barbosa trabalhou na estratégia de comunicação do A.U.R.A.. Ele ajudou a disseminar a visão de uma tecnologia orientada à empatia e responsabilidade social , promovendo o projeto em feiras e eventos (Inov@tech da Fametro) e demonstrando seu potencial educativo e social.    <div className="flex gap-5 mt-5">
       <Button variant="outline" size="icon" >
         <a href="https://www.instagram.com/togato.brt?igsh=ZGF2aTNzZGU5YjY=">
@@ -198,7 +198,7 @@ const data = [
   {
     category: "Desenvolvimento",
     title: "Levi",
-    src: "images/Levi.jpg",
+    src: "images/levi.jpg",
     content: <ViceLiderMarketingLeviContent />,
   },
 ];
